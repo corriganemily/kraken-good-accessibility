@@ -29,13 +29,15 @@ header {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
-  padding: 1rem;
+
+  background-color: #1e7c74;
 }
 
 header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  padding: 1rem;
 }
 
 .by {
@@ -46,7 +48,7 @@ article div {
   padding: 1rem;
 }
 
-article header {
+header article {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,7 +88,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -157,4 +159,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
 }
